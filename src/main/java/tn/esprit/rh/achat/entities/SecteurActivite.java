@@ -23,6 +23,12 @@ public class SecteurActivite implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	public String getCodeSecteurActivite() {
+		return codeSecteurActivite;
+	}
+	public void setCodeSecteurActivite(String codeSecteurActivite) {
+		this.codeSecteurActivite = codeSecteurActivite;
+	}
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long idSecteurActivite;
@@ -31,4 +37,5 @@ public class SecteurActivite implements Serializable{
 	@ManyToMany(mappedBy="secteurActivites")
 	@JsonIgnore
 	private Set<Fournisseur> fournisseurs;
+	
 }
