@@ -23,6 +23,12 @@ public class SecteurActivite implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	public SecteurActivite(long l, String string, String string2, Object object) {
+		// TODO Auto-generated constructor stub
+	}
+	public SecteurActivite() {
+		// TODO Auto-generated constructor stub
+	}
 	public String getCodeSecteurActivite() {
 		return codeSecteurActivite;
 	}
