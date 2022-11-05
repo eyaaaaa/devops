@@ -17,7 +17,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-@NoArgsConstructor
+
 public class SecteurActivite implements Serializable{
 	/**
 	 * 
